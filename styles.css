@@ -1,0 +1,367 @@
+/* GENERAL */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: arial, serif;
+    font-size: 15px;
+}
+
+.wrapper header {
+    width: 940px;
+    margin: 0 auto;
+    padding: 0 10px;
+
+}
+
+.wrapper {
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: gray;
+
+}
+
+a:hover {
+    color: #B4FF90;
+}
+
+
+
+/* HEADER */
+
+header {
+    height: 120px;
+    background-color: black;
+    font-weight: bold;
+
+}
+
+nav {
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-size: 30px;
+    text-align: center;
+
+}
+
+nav a {
+    color: #E6F2FF;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin-top: 40px;
+    margin-right: 40px;
+    margin-left: 40px;
+    font-weight: bold;
+
+}
+
+.letter {
+    color: #FF4200;
+}
+
+
+/* MAIN IMAGE*/
+
+#main-image {
+    background: url(photos/keyboard-10-1024x576.jpg) center;
+    height: 1000px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-color: black;
+
+
+
+}
+
+#main-image h1 {
+    color: #E6F2FF;
+    font-size: 70px;
+    font-family: 'Reenie Beanie', cursive;
+    text-align: left;
+    padding: 90px;
+
+}
+
+.dev {
+    font-family: 'Baloo Da 2', cursive;
+    font-size: 30px;
+    color: #FF4200;
+    text-decoration: underline;
+    text-align: left;
+
+}
+
+.linkedin {
+    width: 50px;
+    margin-top: 20px;
+}
+
+
+
+/*A PROPOS */
+
+#apropos {
+    background-color: #E6E6E6;
+    padding-bottom: 40px;
+    padding-top: 40px;
+    height: 1000px;
+
+}
+
+.phototext {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin: 40px;
+
+}
+
+.guilhem {
+    box-shadow: 5px, 5px, 5px;
+    margin-bottom: auto;
+    margin-top: 200px;
+    margin-left: 20px;
+    filter: drop-shadow(0 0 0.40rem black);
+
+}
+
+.cadre {
+    height: 600px;
+    text-align: center;
+    color: #181835;
+    margin-right: 200px;
+    margin-left: 100px;
+    margin-top: 100px;
+
+
+
+}
+
+#apropos H2 {
+    font-size: 55px;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    padding-top: 20px;
+    min-width: 500px;
+    text-decoration: underline;
+}
+
+#apropos p {
+    margin-top: 40px;
+    padding-top: 30px;
+    text-align: justify;
+    font-size: 25px;
+    font-family: 'Cambay', sans-serif;
+    min-width: 500px;
+}
+
+.avion {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+
+
+}
+
+
+/*EXPERIENCES*/
+
+#experiences {
+    height: 1200px;
+    color: white;
+    padding-left: 50px;
+    padding-right: 50px;
+    background: url(photos/wallpapertip_software-developer-wallpaper_1606895.jpg) center;
+    background-size: 1000px 1200px;
+    background-repeat: no-repeat;
+    background-color: black;
+    background-position: right;
+}
+
+.titreexperience {
+    font-size: 60px;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    padding-top: 20px;
+    min-width: 500px;
+    text-align: left;
+    margin-left: 200px;
+
+
+}
+
+.bloc {
+    display: block;
+    justify-content: space-between;
+
+
+
+}
+
+.richou {
+    border-width: 4px;
+    border-style: solid;
+    border-color: white;
+    padding: 80px;
+    padding-top: 20px;
+    box-shadow: 0px 0px 20px white;
+    font-size: 25px;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: auto;
+    margin-right: 1100px;
+    background-color: rgba(0, 0, 0, 0.6);
+    height: 380px;
+    min-width: 400px;
+    overflow: scroll;
+
+}
+
+.richou h2 {
+    text-decoration: underline;
+    font-weight: bold;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.richou p {
+    font-family: 'Happy Monkey', cursive;
+    text-align: center;
+}
+
+
+.richou ul {
+    list-style: disc;
+    text-align: left;
+    padding-left: 20px;
+    font-family: 'Happy Monkey', cursive;
+}
+
+
+.toys {
+    border-width: 4px;
+    border-style: solid;
+    border-color: white;
+    padding: 80px;
+    padding-top: 20px;
+    box-shadow: 0px 3px 3px white;
+    font-size: 25px;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: auto;
+    margin-right: 1100px;
+    background-color: rgba(0, 0, 0, 0.6);
+    height: 380px;
+    box-shadow: 0px 0px 20px white;
+    min-width: 400px;
+    overflow:hidden;
+
+}
+
+.fontsize {
+    font-size: 20px;
+}
+
+.date {
+    color: #FF4200;
+}
+
+.toys h2 {
+    text-decoration: underline;
+    font-weight: bold;
+    text-align: center;
+
+}
+
+.toys ul {
+    list-style: disc;
+    text-align: left;
+    padding-left: 20px;
+    font-family: 'Happy Monkey', cursive;
+}
+
+.toys p {
+    font-family: 'Happy Monkey', cursive;
+    text-align: center;
+
+}
+
+/*COMPETENCES*/
+
+#competences {
+    background-color: white;
+    background-size: 2000px;
+    height: 600px;
+}
+
+.titrecompetences {
+    font-size: 55px;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    padding-top: 20px;
+    min-width: 500px;
+    text-decoration: underline;
+    text-align: center;
+    margin-left: 40px;
+    margin-top: 30px;
+}
+
+.logocomp {
+    margin-top: 90px;
+    display: inline-block;
+    align-items: center;
+}
+
+.logohtml {
+    margin-left: 100px;
+    margin-right: 120px;
+}
+
+.logocss {
+    margin-right: 120px;
+}
+
+.logoaffinity {
+    margin-right: 120px;
+}
+
+.logotravelport {
+    margin-right: 100px;
+}
+
+/*FOOTER CONTACT*/
+footer {
+    background-size: 2000px;
+    height: 300px;
+    background-color: black;
+
+}
+
+footer h2 {
+    color: white;
+    font-size: 55px;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    padding-top: 20px;
+    min-width: 500px;
+    text-decoration: underline;
+    text-align: left;
+    margin-left: 40px;
+    margin-top: 30px;
+}
+
+footer p {
+    color: white;
+    font-size: 25px;
+    font-family: 'Happy Monkey', cursive;
+    text-align: center;
