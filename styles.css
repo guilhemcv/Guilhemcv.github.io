@@ -145,6 +145,7 @@ header nav ul li {
     margin-right: 200px;
     margin-left: 100px;
     margin-top: 100px;
+    width: 600px;
 
 
 
@@ -167,13 +168,6 @@ header nav ul li {
     min-width: 500px;
 }
 
-.avion {
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 0px;
-
-
-}
 
 
 /*EXPERIENCES*/
@@ -319,26 +313,27 @@ header nav ul li {
 
 .logocomp {
     margin-top: 90px;
-    display: inline-block;
-    align-items: center;
+    display: block;
+    width: 100%;
+    text-align: center;
+    
+  
 }
 
 .logohtml {
-    margin-left: 100px;
-    margin-right: 120px;
+    
+    margin-right: 50px;
 }
 
 .logocss {
-    margin-right: 120px;
+    margin-right: 50px;
 }
 
 .logoaffinity {
-    margin-right: 120px;
+    margin-right: 50px;
 }
 
-.logotravelport {
-    margin-right: 100px;
-}
+
 
 /*FOOTER CONTACT*/
 footer {
