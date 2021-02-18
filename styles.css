@@ -49,7 +49,7 @@ header {
 
 nav {
     font-family: 'Alegreya Sans SC', sans-serif;
-    font-size: 30px;
+    font-size: 20px;
     text-align: center;
 
 }
@@ -153,7 +153,7 @@ header nav ul li {
 }
 
 #apropos H2 {
-    font-size: 55px;
+    font-size: 40px;
     font-family: 'Alegreya Sans SC', sans-serif;
     padding-top: 20px;
     min-width: 500px;
@@ -164,7 +164,7 @@ header nav ul li {
     margin-top: 40px;
     padding-top: 30px;
     text-align: justify;
-    font-size: 25px;
+    font-size: 20px;
     font-family: 'Cambay', sans-serif;
     min-width: 500px;
 }
@@ -192,7 +192,7 @@ header nav ul li {
 }
 
 .titreexperience {
-    font-size: 60px;
+    font-size: 40px;
     font-family: 'Alegreya Sans SC', sans-serif;
     padding-top: 20px;
     min-width: 500px;
@@ -217,7 +217,7 @@ header nav ul li {
     padding: 80px;
     padding-top: 20px;
     box-shadow: 0px 0px 20px white;
-    font-size: 25px;
+    font-size: 20px;
     text-align: center;
     margin-top: 50px;
     margin-bottom: auto;
@@ -258,7 +258,7 @@ header nav ul li {
     padding: 80px;
     padding-top: 20px;
     box-shadow: 0px 3px 3px white;
-    font-size: 25px;
+    font-size: 20px;
     text-align: center;
     margin-top: 50px;
     margin-bottom: auto;
@@ -308,7 +308,7 @@ header nav ul li {
 }
 
 .titrecompetences {
-    font-size: 55px;
+    font-size: 40px;
     font-family: 'Alegreya Sans SC', sans-serif;
     padding-top: 20px;
     min-width: 500px;
@@ -352,7 +352,7 @@ footer {
 
 footer h2 {
     color: white;
-    font-size: 55px;
+    font-size: 40px;
     font-family: 'Alegreya Sans SC', sans-serif;
     padding-top: 20px;
     min-width: 500px;
@@ -364,6 +364,6 @@ footer h2 {
 
 footer p {
     color: white;
-    font-size: 25px;
+    font-size: 20px;
     font-family: 'Happy Monkey', cursive;
     text-align: center;
