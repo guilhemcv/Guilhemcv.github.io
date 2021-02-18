@@ -49,7 +49,7 @@ header {
 
 nav {
     font-family: 'Alegreya Sans SC', sans-serif;
-    font-size: 20px;
+    font-size: 30px;
     text-align: center;
 
 }
@@ -124,7 +124,7 @@ header nav ul li {
 
 .phototext {
     display: flex;
-    align-items: flex-start;
+    align-items: center;
     justify-content: space-between;
     margin: 40px;
 
@@ -147,13 +147,12 @@ header nav ul li {
     margin-top: 100px;
     margin-left: 100px;
     width: 600px;
-
-
+    margin-bottom: auto;
 
 }
 
 #apropos H2 {
-    font-size: 40px;
+    font-size: 55px;
     font-family: 'Alegreya Sans SC', sans-serif;
     padding-top: 20px;
     min-width: 500px;
@@ -164,15 +163,20 @@ header nav ul li {
     margin-top: 40px;
     padding-top: 30px;
     text-align: justify;
-    font-size: 20px;
+    font-size: 25px;
     font-family: 'Cambay', sans-serif;
     min-width: 500px;
 }
 
 .avion {
+    display: block;
     height: 200px;
     width: 600px;
-    margin-right: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    margin-bottom: 30px;
+    
 }
 
 
@@ -192,7 +196,7 @@ header nav ul li {
 }
 
 .titreexperience {
-    font-size: 40px;
+    font-size: 60px;
     font-family: 'Alegreya Sans SC', sans-serif;
     padding-top: 20px;
     min-width: 500px;
@@ -217,7 +221,7 @@ header nav ul li {
     padding: 80px;
     padding-top: 20px;
     box-shadow: 0px 0px 20px white;
-    font-size: 20px;
+    font-size: 25px;
     text-align: center;
     margin-top: 50px;
     margin-bottom: auto;
@@ -258,7 +262,7 @@ header nav ul li {
     padding: 80px;
     padding-top: 20px;
     box-shadow: 0px 3px 3px white;
-    font-size: 20px;
+    font-size: 25px;
     text-align: center;
     margin-top: 50px;
     margin-bottom: auto;
@@ -308,7 +312,7 @@ header nav ul li {
 }
 
 .titrecompetences {
-    font-size: 40px;
+    font-size: 55px;
     font-family: 'Alegreya Sans SC', sans-serif;
     padding-top: 20px;
     min-width: 500px;
@@ -352,7 +356,7 @@ footer {
 
 footer h2 {
     color: white;
-    font-size: 40px;
+    font-size: 55px;
     font-family: 'Alegreya Sans SC', sans-serif;
     padding-top: 20px;
     min-width: 500px;
@@ -364,6 +368,6 @@ footer h2 {
 
 footer p {
     color: white;
-    font-size: 20px;
+    font-size: 25px;
     font-family: 'Happy Monkey', cursive;
     text-align: center;
