@@ -118,7 +118,7 @@ header nav ul li {
     padding-bottom: 40px;
     padding-top: 40px;
     height: 1000px;
-    background-size: cover;
+    background-size: 100%;
 
 }
 
@@ -143,8 +143,7 @@ header nav ul li {
     height: 600px;
     text-align: center;
     color: #181835;
-    margin-right: 200px;
-    margin-left: 100px;
+    margin-right: 400px;
     margin-top: 100px;
     width: 600px;
 
@@ -167,6 +166,12 @@ header nav ul li {
     font-size: 25px;
     font-family: 'Cambay', sans-serif;
     min-width: 500px;
+}
+
+.avion {
+    height: 200px;
+    width: 600px;
+    margin-right: 400px;
 }
 
 
