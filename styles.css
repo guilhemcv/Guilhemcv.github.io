@@ -184,7 +184,7 @@ header nav ul li {
 /*EXPERIENCES*/
 
 #experiences {
-    height: 600px;
+    height: 1200px;
     color: white;
     padding-left: 50px;
     padding-right: 50px;
@@ -308,7 +308,7 @@ header nav ul li {
 #competences {
     background-color: white;
     background-size: 2000px;
-    height: 600px;
+    height: 300px;
 }
 
 .titrecompetences {
