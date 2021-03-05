@@ -11,7 +11,7 @@ body {
 }
 
 .wrapper header {
-    width: 940px;
+    width: 100%;
     margin: 0 auto;
     padding: 0 10px;
 
@@ -28,7 +28,7 @@ ul {
 
 a {
     text-decoration: none;
-    color: gray;
+    color: black;
 
 }
 
@@ -48,6 +48,7 @@ header {
 }
 
 nav {
+    width: 100%;
     font-family: 'Alegreya Sans SC', sans-serif;
     font-size: 30px;
     text-align: center;
@@ -76,7 +77,9 @@ header nav ul li {
 
 #main-image {
     background: url(photos/keyboard-10-1024x576.jpg) center;
+    background-size: 100%;
     height: 1000px;
+    width: 100%;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: right;
@@ -106,35 +109,54 @@ header nav ul li {
 
 .linkedin {
     width: 50px;
-    margin-top: 20px;
 }
+
+.in {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: auto;
+}
+
+.linkedintext {
+    color: #129AFF;
+    font-family: 'Baloo Da 2', cursive;
+    font-size: 30px;
+    margin-left: 10px;
+}
+
+#main-page img.linkedin:hover {
+    background-color: red;
+}
+
 
 
 
 /*A PROPOS */
 
 #apropos {
+
     background-color: #E6E6E6;
+    background-size: cover;
     padding-bottom: 40px;
     padding-top: 40px;
     height: 1000px;
-    background-size: 100%;
+    
 
 }
 
 .phototext {
-    display: flex;
-    align-items: center;
+    flex-direction: row;
     justify-content: space-between;
-    margin: 40px;
-
+    display: inline-flex;
+    align-items: center;
 }
 
 .guilhem {
-    box-shadow: 5px, 5px, 5px;
+    box-shadow: 5px  5px  5px;
     margin-bottom: auto;
-    margin-top: auto;
-    margin-left: 20px;
+    margin-top: 200px;
+    margin-left: 2%;
     filter: drop-shadow(0 0 0.40rem black);
 
 }
@@ -143,12 +165,9 @@ header nav ul li {
     height: 600px;
     text-align: center;
     color: #181835;
-    margin-right: 500px;
-    margin-top: 100px;
-    margin-left: 100px;
-    width: 600px;
-    margin-bottom: auto;
-
+    margin-right: 2%;
+    margin-left: 10%;
+    margin-top: 10%;
 }
 
 #apropos H2 {
@@ -168,28 +187,24 @@ header nav ul li {
     min-width: 500px;
 }
 
-.avion {
-    display: block;
-    height: 200px;
-    width: 600px;
+/* .avion {
     margin-left: auto;
     margin-right: auto;
-    align-items: center;
-    margin-bottom: 30px;
-    
-}
+    margin-top: 0px;
 
+
+} */
 
 
 /*EXPERIENCES*/
 
 #experiences {
-    height: 1200px;
+    height: 1400px;
     color: white;
     padding-left: 50px;
     padding-right: 50px;
     background: url(photos/wallpapertip_software-developer-wallpaper_1606895.jpg) center;
-    background-size: 1000px 1200px;
+    background-size: cover;
     background-repeat: no-repeat;
     background-color: black;
     background-position: right;
@@ -198,17 +213,20 @@ header nav ul li {
 .titreexperience {
     font-size: 60px;
     font-family: 'Alegreya Sans SC', sans-serif;
-    padding-top: 20px;
+    padding-top: 5%;
     min-width: 500px;
     text-align: left;
-    margin-left: 200px;
+    margin-left: 12%;
 
 
 }
 
 .bloc {
-    display: block;
+    display: flex;
+    flex-direction: column;
     justify-content: space-between;
+    margin-top: auto;
+    margin-bottom: auto;
 
 
 
@@ -223,7 +241,7 @@ header nav ul li {
     box-shadow: 0px 0px 20px white;
     font-size: 25px;
     text-align: center;
-    margin-top: 50px;
+    margin-top: 100px;
     margin-bottom: auto;
     margin-right: 1100px;
     background-color: rgba(0, 0, 0, 0.6);
@@ -264,7 +282,7 @@ header nav ul li {
     box-shadow: 0px 3px 3px white;
     font-size: 25px;
     text-align: center;
-    margin-top: 50px;
+    margin-top: 100px;
     margin-bottom: auto;
     margin-right: 1100px;
     background-color: rgba(0, 0, 0, 0.6);
@@ -307,7 +325,7 @@ header nav ul li {
 
 #competences {
     background-color: white;
-    background-size: 2000px;
+    background-size: 100%;
     height: 300px;
 }
 
@@ -324,26 +342,13 @@ header nav ul li {
 
 .logocomp {
     margin-top: 90px;
-    display: block;
-    width: 100%;
-    text-align: center;
-    
-  
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
 }
-
-.logohtml {
-    
-    margin-right: 50px;
-}
-
-.logocss {
-    margin-right: 50px;
-}
-
-.logoaffinity {
-    margin-right: 50px;
-}
-
 
 
 /*FOOTER CONTACT*/
@@ -371,3 +376,4 @@ footer p {
     font-size: 25px;
     font-family: 'Happy Monkey', cursive;
     text-align: center;
+}
